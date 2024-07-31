@@ -1,3 +1,18 @@
+# Enter to folder
+```
+cd Web_app/frontend
+cd Web_app/backend
+```
+
+# Enter to node cmd
+```
+FOR /f "tokens=*" %i IN ('fnm env --use-on-cd') DO CALL %i
+```
+
+# Run backend 
+```
+uvicorn main:app --reload
+```
 # frontend
 
 ## Project setup
